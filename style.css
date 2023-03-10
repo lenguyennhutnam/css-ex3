@@ -1,0 +1,31 @@
+body{
+    margin: auto 300px ;
+}
+
+#heading{
+    background-color:rgb(136, 180, 180);
+}
+
+#heading:hover{
+    background-color:rgba(128, 53, 53, 0.521);
+}
+
+h2{
+    color:orange;
+}
+
+#text-green{
+    color:green;
+}
+
+#detail{
+    color:darkgoldenrod;
+}
+
+#detail:hover{
+    color:darkgreen
+}
+
+.checked-box:checked + label{
+    color:red;
+}
